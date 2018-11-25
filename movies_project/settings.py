@@ -135,3 +135,6 @@ AUTH_USER_MODEL='movies_api.UserProfile'
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
+import dj_database_url
+dj_database_url.config()
+DATABASES['default'].update(db_from_env)
