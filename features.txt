@@ -1,0 +1,19 @@
+admin page: localhost/admin 
+*manage data stored in database (authentication required)*
+
+APIs page: localhost/api 
+*show list of API*
+
+Movie list: localhost/api/movie
+*all: show list of movie info, view movie's info (by adding "/{id}")*
+*authenticated user can create a movie's info or update that movie info(by adding "/{id}" or through filter)*
+
+User list: localhost/api/user 
+*show list of user, create a non-admin user, view user's info(by adding "/{id}" or through filter), authenticated user can update their own info(by adding "/{id}")*
+
+Login API: localhost/api/login 
+*to see auth token of the submitted email+password => use this to add the token to modHeader (a Chrome's extension)*
+
+here is one superuser
+email:asd@example.com
+password:asd
