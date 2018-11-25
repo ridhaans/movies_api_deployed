@@ -10,6 +10,7 @@ router=DefaultRouter()
 router.register('movie', views.MovieViewSet)
 router.register('user', views.UserProfileViewSet)
 router.register('login',views.LoginViewSet, base_name='login')
+router.register('', views.MovieViewSet)
 
 urlpatterns=[    
     #path('movies/',views.MoviesApiView),
