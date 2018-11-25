@@ -15,5 +15,5 @@ Login API: localhost/api/login
 *to see auth token of the submitted email+password => use this to add the token to modHeader (a Chrome's extension)*
 
 here is one superuser
-email:asd@example.com
-password:asd
+email:ridha3@example.com
+password:asd123
